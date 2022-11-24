@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="https://www.iesmanacor.cat/oferta-educativa/cf-grau-superior/">
+        <label for="colorfons">Color</label>
+        <input type="text" name="nomcomplet" placeholder="John Doe" value="Sergio Cobo">
+        <input type="color" name="colorfons" id="colorfons">
+        <input type="date" name="naixament">
+        <input type="email" name="correu">
+        <input type="file" name="foto">
+        <input type="password" name="contrasenya">
+        <input type="hidden" name="ocult">
+        <input type="submit" value="Envia">
+        <input type="url" name="url">
+        <input type="tel" name="telèfon">
+        <input type="number" name="edat" min="0" max="200">
+        <select name="pais" id="">
+            <optgroup label="Començen per A">
+                <option value="al">Albania</option>
+                <option value="de">Alemanya</option>
+            </optgroup>
+            <optgroup label="Començen per altres">
+                <option value="cn">Canadà</option>
+                <option value="es" selected>Espanya</option>
+                <option value="eu">Estats Units</option>
+                <option value="zb">Zimbawe</option>
+            </optgroup>
+        </select>
+        <select name="pais" id="" multiple>
+            <option value="al">Albania</option>
+            <option value="de">Alemanya</option>
+            <option value="cn">Canadà</option>
+            <option value="es" selected>Espanya</option>
+            <option value="eu">Estats Units</option>
+            <option value="zb">Zimbawe</option>
+        </select>
+        <input type="text" name="paisos" list="llista ">
+        <datalist id="llista">
+            <option value="al">Albania</option>
+            <option value="de">Alemanya</option>
+            <option value="es">Espanya</option>
+        </datalist>
+
+        <h2>Aficions</h2>
+        <label for="aficio_nadar">Nadar</label>
+        <input type="checkbox" name="aficio_nadar" id="aficio_nadar" value="nadar" checked>
+        <label for="aficio_correr">Correr</label>
+        <input type="checkbox" name="aficio_correr" id="aficio_correr" value="correr" checked>
+        <label for="aficio_llegir">Llegir</label>
+        <input type="checkbox" name="aficio_correr" id="aficio_llegir" value="llegir" checked>
+
+        <h2>Sexe</h2>
+        <label for="home">Home</label>
+        <input type="radio" name="sexe" id="home" value="home" checked>
+        <label for="dona">Dona</label>
+        <input type="radio" name="sexe" id="dona" value="dona">
+        <label for="altra">Altra</label>
+        <input type="radio" name="sexe" id="altra" value="altra">
+        <label for="nsnc">NS/NC</label>
+        <input type="radio" name="sexe" id="nsnc" value="nsnc">
+    </form>
+</body>
+</html>

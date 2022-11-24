@@ -1,0 +1,6 @@
+p {
+    /*POSAM COLOR A L'ETIQUETA "p"*/
+    color: green; /*nom color*/
+    color: #FF0000; /*nom color en hexadecimal*/
+    color: rgb(0, 0, 255); /*nom color en rgb*/
+}

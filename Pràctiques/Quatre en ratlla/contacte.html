@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>contacte</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Índex</a>
+            <a href="./joc.html">Joc</a>
+            <a href="./ajuda.html">Ajuda</a>
+            <a href="./mapa.html">Mapa</a>
+            <a href="./configuracio.html">Configuració</a>
+            <a href="./altra.html">Altra</a>
+        </nav>
+    </header>
+    <main>
+        <form method="POST" action="https://theteacher.codiblau.com/llmqs/practica/contacte">
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" id="nom" minlength="2" maxlength="30" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="tipus">Tipus:</label>
+            <select name="tipus" id="tipus">
+                <option value="consulta_general">CONSULTA</option>
+                <option value="error">ERROR</option>
+                <option value="millores">MILLORA</option>
+                <option value="inscripcio_anual">SUBSCRIBE</option>
+            </select>
+            <label for="telefon">Telèfon:</label>
+            <input type="tel" name="telefon" id="telefon">
+            <label for="data_naixament">Data de naixament:</label>
+            <input type="date" name="data_naixament" id="data_naixament">
+            <label for="misstage">Missatge:</label>
+            <textarea name="missatge" id="missatge"></textarea>
+            <input type="submit" value="ENVIAR">
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

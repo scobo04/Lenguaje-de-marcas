@@ -1,0 +1,30 @@
+a {
+    color: red;
+}
+
+article h4 {
+    color: orange;
+}
+.sale h4 {
+    color: green;
+}
+
+nav li>a {
+    color: blue;
+}
+
+nav, article, footer {
+    background-color: yellow;
+}
+
+a[href^="tel:"] {
+    color: orange;
+}
+a[href^="mailto:"] {
+    color: pink;
+}
+
+header>nav:nth-child(2)>ul>li:nth-child(3)>a {
+    color: purple;
+    font-size: 20pt;
+  }

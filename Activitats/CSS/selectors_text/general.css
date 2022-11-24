@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "IES Manacor";
+    src: url(./fonts/BhuTukaExpandedOne-Regular.ttf);
+}
+p:nth-child(1) {
+    font-family: 'IES Manacor', cursive;
+
+    color: red;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+p:nth-child(2) {
+    font-family: 'Patrick Hand', cursive;
+
+    color: green;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+p:nth-child(3) {
+    font-family: 'Rubik Glitch', cursive;
+
+    word-spacing: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
